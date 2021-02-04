@@ -46,7 +46,7 @@ export default class App extends React.Component{
     this.setState({todos});
   }
 
-  removeTodo (item) {
+  removeTodo (item){
     let todos = this.state.todos;
 
     todos = todos.filter((todo) => todo.id !== item.id);
