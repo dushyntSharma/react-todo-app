@@ -32,7 +32,7 @@ export default class App extends React.Component {
     });
   }
 
-  toggleDone (item) {
+  toggleDone (item){
     let todos = this.state.todos;
 
     todos = todos.map((todo) => {
