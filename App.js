@@ -4,7 +4,7 @@ import Header from './components/Header';
 import InputBar from './components/InputBar';
 import TodoItem from './components/TodoItem';
 
-export default class App extends React.Component {
+export default class App extends React.Component{
   constructor () {
     super();
 
