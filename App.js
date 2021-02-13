@@ -29,7 +29,8 @@ export default class App extends React.Component {
     this.setState({
       todos: todos,
       todoInput: ''
-    });
+   
+      });
   }
 
   toggleDone (item){
